@@ -14,4 +14,4 @@ jobs:
         run: pip install yamllint
 
       - name: Check yaml
-        run: yamllint -f parsable prac_ga
+        run: yamllint prac_ga
