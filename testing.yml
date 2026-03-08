@@ -2,11 +2,10 @@ app:
   name: demo-app
   version: 1.0
 
-server:
-  host: localhost
-  port 8080
+server
+host: localhostport 8080
 
 database:
-  name: mydb
+name: mydb
   user: admin
   password: secret
