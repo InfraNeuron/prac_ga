@@ -8,4 +8,5 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v3
       - name: Print Status
-        run: echo " Git checkout success"
+        run: echo " Git checkout success !"
+# testing
