@@ -1,5 +1,6 @@
 name: Trigger wf on push
-on: push
+#on: push
+on: workflow_dispatch
 jobs:
   Print-if-Success:
     runs-on: ubuntu-latest
