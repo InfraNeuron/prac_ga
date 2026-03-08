@@ -1,0 +1,13 @@
+name: Yaml Checker
+on: workflow_dispatch
+jobs:
+  Yaml-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@4
+      - name: Insatall yamllint
+        run: pip install yamllint
+      - name: Check yaml
+        run: yamllint .
+      
