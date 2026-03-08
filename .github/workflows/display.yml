@@ -1,0 +1,10 @@
+name: Print Demo
+on: workflow_dispatch
+jobs:
+  Just_Print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Printing name
+        run: |
+           echo "Hello abhi"
+      

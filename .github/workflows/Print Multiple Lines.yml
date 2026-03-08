@@ -1,0 +1,10 @@
+name: Print Multiple Lines
+on: workflow_dispatch
+jobs:
+  Print_Mutiple_Lines:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print the text
+        run: |
+          echo "Hello"
+          echo "How are you ?"
