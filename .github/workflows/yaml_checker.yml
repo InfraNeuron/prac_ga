@@ -15,5 +15,5 @@ jobs:
       - name: Insatall yamllint
         run: pip install yamllint
       - name: Check yaml
-        run: yamllint /prac_ga
+        run: yamllint prac_ga/
       
